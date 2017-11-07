@@ -1,0 +1,109 @@
+
+body {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    color:#333333;
+}
+nav {
+    text-align:center;
+    background-color: #008080;
+    height:50px;
+    padding-top:10px;
+}
+nav a {
+  font-size: 1.5em;  
+  color: #ffffff;
+  margin:0 10px;  
+  text-decoration: none;
+}
+.icon-container a {
+  margin: .5em;
+  font-size: 2em;
+  color: white;
+}
+.icon-container {
+  margin-top: 1.5em;
+}
+#first-block {
+    background: url("https://images.pexels.com/photos/5106/forest-trees-fog-foggy.jpg?w=940&h=650&auto=compress&cs=tinysrgb") no-repeat 50% 50%;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding:0 20px;
+}
+#first-block h1 {
+    font-size: 44px;
+    color: white;
+}
+
+#sec-block {
+    height: 85vh;
+    background-color: #008080;
+    display: flex;  
+    flex-flow: row wrap;
+    text-align: left;
+}
+
+
+.aboutimg {
+    -webkit-border-radius: 50em;
+    -moz-border-radius: 50em;
+    border-radius: 50em;
+    
+}
+.about-text {
+    color: white;
+    
+    margin: 33px;
+}
+.about-left {
+    float:left;
+    width: 50%;
+	
+}
+.about-right {
+    float:left;
+    width: 50%;
+}
+
+.my-work {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.works {
+  display: flex;
+  width: 25%;
+  height: 20em;
+  align-items: center;
+  justify-content: center;
+  background-color: #CECECE;
+}
+
+.works:hover {
+  background-color: #8E8E8E;
+}
+
+.works a {
+  font-family: "Varela Round";
+  color: #383838;
+  text-decoration: none;
+}
+/*.footer {*/
+/*    width: 100%;*/
+/*  display: flex;*/
+/*  align-items: center;*/
+/*  justify-content: flex-start;*/
+/*  background-color: #191919;*/
+/*  color: #D1D1D1;*/
+/*  font-size: 1em;*/
+/*  box-sizing: border-box;*/
+/*}*/
+.fourth-block {
+    height: 15vh;
+    background-color: #008080;
+}
